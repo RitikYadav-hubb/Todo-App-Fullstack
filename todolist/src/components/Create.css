@@ -1,0 +1,33 @@
+.InputContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+
+}
+.InputField {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  
+}
+.Input{
+  height: 30px;
+  width: 60%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.Button {
+  height: 30px;
+  width: 50px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 400px;
+  cursor: pointer;
+  margin-left: 60px;
+}
+  
