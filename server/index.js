@@ -9,7 +9,7 @@ app.use(express.json());
 
 mongoose
   .connect(
-    "mongodb+srv://ritikyadav489:XeGprbl6UJ7jdY4Y@cluster0.g5fiyqb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://MONGO_URI=your-mongodb-uri"
   )
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("MongoDB connection error:", err));
@@ -46,3 +46,4 @@ app.listen(PORT, () => {
 });
 
 //XeGprbl6UJ7jdY4Y
+
